@@ -1,0 +1,11 @@
+html {
+  text-align: center;
+}
+
+.app-title {
+  font-size: 5em;
+  font-weight: 600;
+  border-bottom-style: groove;
+  border-bottom-color: black;
+  border-bottom-width: thick;
+}
