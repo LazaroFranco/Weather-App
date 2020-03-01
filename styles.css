@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  width: 40em;
+  width: 30em;
   background-color: white;
   display: block;
   margin: 0 auto;
@@ -42,13 +42,13 @@ body {
 }
 
 .weather-container {
-  width: 40em;
+  width: 30em;
   height: 260px;
   background-color: white;
 }
 
 .weather-icon {
-  width: 40em;
+  width: 30em;
   height: 128px;
 }
 
