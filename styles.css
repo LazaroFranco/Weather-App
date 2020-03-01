@@ -1,18 +1,21 @@
 body {
-  background-color: #293251;
+  background-image: url(https://i.pinimg.com/originals/90/2f/b6/902fb683da6e99129aa43990f81607cd.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
-  width: 300px;
+  width: 40em;
   background-color: white;
   display: block;
   margin: 0 auto;
+  margin-top: 10em;
   border-radius: 10px;
   padding-bottom: 50px;
 }
 
 .app-title {
-  width: 300px;
+  width: 40em;
   height: 50px;
   border-radius: 10px 10px 0 0;
 }
@@ -39,13 +42,13 @@ body {
 }
 
 .weather-container {
-  width: 300px;
+  width: 40em;
   height: 260px;
   background-color: white;
 }
 
 .weather-icon {
-  width: 300px;
+  width: 40em;
   height: 128px;
 }
 
@@ -55,7 +58,7 @@ body {
 }
 
 .temperature-value {
-  width: 300px;
+  width: 40em;
   height: 60px;
 }
 
