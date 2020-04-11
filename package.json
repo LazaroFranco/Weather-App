@@ -1,0 +1,22 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LazaroFranco/Weather-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LazaroFranco/Weather-App/issues"
+  },
+  "homepage": "https://github.com/LazaroFranco/Weather-App#readme",
+  "devDependencies": {
+    "electron": "^8.0.2"
+  }
+}

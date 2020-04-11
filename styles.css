@@ -1,31 +1,42 @@
-body {
-  background-image: url(https://i.pinimg.com/originals/90/2f/b6/902fb683da6e99129aa43990f81607cd.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+.mainbody
+{
+    background: url(https://images.unsplash.com/photo-1510525009512-ad7fc13eefab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
 }
 
 .container {
-  width: 30em;
-  background-color: white;
+  width: 50em;
   display: block;
   margin: 0 auto;
   margin-top: 10em;
   border-radius: 10px;
   padding-bottom: 50px;
+  border: groove black;
+  background: rgba(255,255,255,0.4);
+  background-clip: padding-box;
+  height: 22em;
 }
 
 .app-title {
-  width: 40em;
   height: 50px;
   border-radius: 10px 10px 0 0;
 }
 
 .app-title p {
+  font-family: 'Bungee';
   text-align: center;
-  padding: 15px;
   margin: 0 auto;
-  font-size: 1.2em;
-  color: #293251;
+  font-size: 3em;
+  color: black;
+  border-bottom: groove black;
 }
 
 .notification {
@@ -34,7 +45,7 @@ body {
 }
 
 .notification p {
-  color: #721c24;
+  color: white;
   font-size: 1.2em;
   margin: 0;
   text-align: center;
@@ -44,7 +55,6 @@ body {
 .weather-container {
   width: 30em;
   height: 260px;
-  background-color: white;
 }
 
 .weather-icon {
@@ -55,6 +65,7 @@ body {
 .weather-icon img {
   display: block;
   margin: 0 auto;
+  margin-left: 20em;
 }
 
 .temperature-value {
@@ -65,29 +76,32 @@ body {
 .temperature-value p {
   padding: 0;
   margin: 0;
-  color: #293251;
+  color: black;
   font-size: 4em;
   text-align: center;
   cursor: pointer;
+  margin-left: 20%;
 }
 
 .temperature-value span {
-  color: #293251;
+  color: red;
   font-size: 0.5em;
 }
 
 .temperature-description p {
   padding: 8px;
   margin: 0;
-  color: #293251;
+  color: black;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 2em;
+  margin-left: 50%;
 }
 
 .location p {
+  font-weight: bolder;;
   margin: 0;
   padding: 0;
-  color: #293251;
   text-align: center;
-  font-size: 0.8em;
+  font-size: -webkit-xxx-large;
+  margin-left: 50%;
 }
